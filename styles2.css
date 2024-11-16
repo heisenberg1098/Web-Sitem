@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Concert+One&display=swap');
+button{
+    border: 0;
+    background-color: transparent;
+}
+header>svg>image{
+    transition: all 0.5s ease;
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    margin-left: 40px;
+    filter:  brightness(1) ;
+}
+header>svg{
+    transition: all 0.5s ease;
+    margin-left: 40px;
+    filter:  brightness(1) ;
+}
+header>svg:hover{
+    transition: all 0.5s ease;
+   transform: scale(1.3);
+    margin-left: 70px;
+}
+h1{
+    transition: all 0.5s ease;
+    color:#d920ba ;
+}
+h1:hover{
+    margin-right: 70px;
+    transition: all 0.5s ease;
+    transform: scale(1.3);
+}
+svg {
+    height: 100px;
+    width: 100px;
+    
+}
+
+header{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 15px;
+}
+body{
+    background-color: #ffe7fd;
+    font-family: "Concert One", serif;
+    font-weight: 400;
+    font-style: normal;
+    min-width: 640px;
+
+}
+nav>ul>li{
+    
+    display: inline;
+    color:#d920ba;
+   margin-right: 10px; 
+}
+nav>ul>li>a{
+    transition: all 0.5s ease;
+    color:#d920ba;
+}
+nav>ul>li>a:hover{
+    transition: all 0.5s ease;
+   font-size: 20px;
+   color:#510140;
+}
+ul{
+    justify-content: center;
+}
+nav>ul>li input{
+    border-radius: 10px;
+    border: 1 ;
+    border-color: #fe74eb;
+    padding-left: 10px;
+}
+nav>ul>li a{
+    text-decoration: none;
+    color:#d920ba;
+    font-size: large;
+    font-weight: bold;
+
+}
+div{
+    display: grid;
+    justify-content: center; /* Yatayda ortala */
+  
+}
+section{
+    width: 550px;
+}
+h2{
+    color: #93157a;
+}
+article>p>a{
+    text-decoration: none;
+    color: #f540db;
+
+}
+article>p{
+    color: #f540db;
+
+}
+article>p>a:hover{
+    color: #d920ba;
+
+}
+article>p>a:active{
+    color: #b41797;
+
+}
+nav ,footer{
+    display: flex;
+    justify-content: center; /* Yatayda ortala */
+    align-items: center; /* Dikeyde ortala */
+    height: 100px; /* Nav'ın yüksekliği */
+}
+footer ul{
+    color: #510140;
+list-style-type: circle;
+}
+footer a{
+    color: #f540db;
+    text-decoration: none;
+}
+footer a:hover{
+    color: #d920ba;
+
+}
+footer a:active{
+    color: #b41797;
+
+} 
+nav div{
+    display: inline-block;
+}
+.img2 {
+    opacity: 0;
+}
+
+/* Checkbox işaretlendiğinde ilk resmi gizle, ikinciyi göster */
+#toggleImage:checked + label .img1 {
+    opacity: 0;
+    background-color: #510140;
+}
+
+#toggleImage:checked + label .img2 {
+    opacity: 1;
+}
+
+/* Genel img stilleri */
+nav img {
+    width: 30px;
+    height: auto;
+    cursor: pointer;
+}
+form input {
+    width: 70%;             /* Genişlik %100, böylece tüm ekranı doldurur */
+    padding: 10px;           /* İçerideki boşluğu artırır */
+    border-radius: 8px;      /* Köşeleri yuvarlar */
+    border: 2px solid #ddd;  /* Kenarlık rengi */
+    transition: all 0.3s ease;  /* Yumuşak geçiş efektleri */
+}
+fieldset{
+    border-radius: 10px;
+    border-color: #510140;
+}
+legend{
+    color: #93157a;
+}
+form input{
+    font-family: "Concert One", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+form input:focus {
+    font-family: "Concert One", serif;
+    font-weight: 400;
+    font-style: normal;
+    border-color: #b41797;   /* Odaklanıldığında kenarlık rengi değişir */
+    box-shadow: 0 1px 10px rgba(25, 151, 161, 0.7); /* Hafif gölge efekti */
+}
+label{
+    
+    color: #93157a;
+}
+input::placeholder{
+    font-family: "Concert One", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #d920ba;
+}
+form>div>button svg{
+    fill: #510140;
+    height: 40px;
+    width: 31px;
+}
+form>div{
+   display: flex;
+    align-items: center;
+}
+
