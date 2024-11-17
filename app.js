@@ -1,5 +1,6 @@
 
 var sayi=0;
+document.body.style.zoom = "150%";
 document.getElementById('renkdegis').addEventListener('click', function() {
     // CSS linki etiketini seç
     var stylesheet = document.getElementById('stylesheet');
