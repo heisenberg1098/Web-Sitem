@@ -47,7 +47,7 @@ body{
     font-family: "Concert One", serif;
     font-weight: 400;
     font-style: normal;
-    min-width: 640px;
+    min-width: 685px;
 
 }
 nav>ul>li{
@@ -149,7 +149,19 @@ nav div{
 }
 
 /* Genel img stilleri */
-nav img {
+nav svg {
+    height: 10px;
+   
+    transition: all 0.5s ease;
+    fill: #1997a1;
+    width: 22px;
+    height: auto;
+    cursor: pointer;
+}
+nav svg:hover{
+    transform: scale(1.2);
+    transition: all 0.5s ease;
+    fill: #0e363e;
     width: 30px;
     height: auto;
     cursor: pointer;
@@ -200,4 +212,19 @@ form>div{
    display: flex;
     align-items: center;
 }
+#Projeler li{
+    color: #1bbabf;
+}
+#Projeler p{
+    color: #1bbabf;
+}
+#Projeler a{
+    transition: all 0.3s ease-in-out;
+    color: #1bbabf;
+}
+#Projeler a:hover{
+transition: all 0.3s ease-in-out;
+    color: #0e363e;
+}
+
 
